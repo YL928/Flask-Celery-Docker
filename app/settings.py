@@ -1,5 +1,5 @@
 class Config(object):
-    PORT = 3000
+    PORT = 3001
     HOST = '0.0.0.0'
 
 class ProdConfig(Config):
