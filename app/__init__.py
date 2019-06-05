@@ -9,6 +9,10 @@ else:
 
 
 def create_app():
+    if os.getenv("FLASK_ENV") == 'prod':
+        DefaultConfig = ProdConfig
+    else:
+        DefaultConfig = DevConfig
     app = Flask(__name__)
     app.config.from_object(DefaultConfig)
 
