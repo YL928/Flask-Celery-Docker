@@ -6,8 +6,8 @@ if os.getenv("FLASK_ENV") == 'prod':
     DefaultConfig = ProdConfig
 else:
     DefaultConfig = DevConfig
-
-
+from celery import Celery
+celery = Celery(__name__,backend=DevConfig.CELERY_BROKER_URL, broker=DevConfig.CELERY_BROKER_URL)
 def create_app():
     if os.getenv("FLASK_ENV") == 'prod':
         DefaultConfig = ProdConfig
@@ -15,7 +15,7 @@ def create_app():
         DefaultConfig = DevConfig
     app = Flask(__name__)
     app.config.from_object(DefaultConfig)
-
+    celery.conf.update(app.config)
     registe_extensions(app)
     register_blueprints(app)
 

@@ -43,3 +43,44 @@ worker 2 buried after 1 seconds
 worker 3 buried after 1 seconds
 worker 4 buried after 1 seconds
 goodbye to uWSGI.
+[I 14:35:13.805 NotebookApp] Serving notebooks from local directory: /root/fbase
+[I 14:35:13.805 NotebookApp] The Jupyter Notebook is running at:
+[I 14:35:13.805 NotebookApp] http://(e1805281cd78 or 127.0.0.1):8888/?token=3386451a48ac5a277c48548d5c813e233cc34d58ca3f396a
+[I 14:35:13.805 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:35:13.808 NotebookApp] No web browser found: could not locate runnable browser.
+[C 14:35:13.808 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/nbserver-127-open.html
+    Or copy and paste one of these URLs:
+        http://(e1805281cd78 or 127.0.0.1):8888/?token=3386451a48ac5a277c48548d5c813e233cc34d58ca3f396a
+[W 14:35:22.817 NotebookApp] delete /Untitled.ipynb
+[W 14:35:22.817 NotebookApp] Skipping trash for /root/fbase/Untitled.ipynb, on different device to home directory
+[I 14:35:30.044 NotebookApp] Saving file at /app/settings.py
+[I 14:35:40.715 NotebookApp] New terminal with automatic name: 1
+[I 14:40:39.875 NotebookApp] Saving file at /app/__init__.py
+[I 14:40:49.552 NotebookApp] Saving file at /app/__init__.py
+[I 14:41:22.297 NotebookApp] Saving file at /app/__init__.py
+[I 14:42:32.552 NotebookApp] Creating new file in /app
+[I 14:42:33.927 NotebookApp] Saving file at /app/untitled.txt
+[I 14:42:38.960 NotebookApp] Saving file at /app/untitled.txt
+[I 14:43:03.077 NotebookApp] Creating new file in /app
+[I 14:47:30.019 NotebookApp] Saving file at /app/tasks.py
+[I 14:47:59.269 NotebookApp] Saving file at /app/api/survey.py
+[I 14:50:01.429 NotebookApp] Saving file at /app/api/survey.py
+[I 14:50:34.466 NotebookApp] Saving file at /app/api/survey.py
+[I 14:51:41.059 NotebookApp] Saving file at /app/tasks.py
+[I 14:51:49.044 NotebookApp] Saving file at /app/tasks.py
+[I 14:52:11.066 NotebookApp] Saving file at /app/api/survey.py
+[I 14:52:18.755 NotebookApp] Saving file at /app/api/survey.py
+[I 14:55:02.542 NotebookApp] Saving file at /app/api/survey.py
+[I 14:55:38.290 NotebookApp] Saving file at /app/settings.py
+[I 14:56:35.316 NotebookApp] Saving file at /app/api/survey.py
+[I 14:56:52.852 NotebookApp] New terminal with automatic name: 2
+[I 15:01:03.673 NotebookApp] Saving file at /app/api/survey.py
+[I 15:02:51.805 NotebookApp] Saving file at /app/api/survey.py
+[I 15:04:21.805 NotebookApp] Saving file at /app/api/survey.py
+[I 15:05:12.696 NotebookApp] Saving file at /app/__init__.py
+[I 15:06:07.086 NotebookApp] Saving file at /app/api/survey.py
+[I 15:20:49.227 NotebookApp] Saving file at /app/tasks.py
+[I 15:26:28.477 NotebookApp] Saving file at /app/api/survey.py

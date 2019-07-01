@@ -1,7 +1,7 @@
 class Config(object):
-    PORT = 3000
+    PORT = 3003
     HOST = '0.0.0.0'
-
+    CELERY_BROKER_URL = "redis://redis:6379/0"
 class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = 'mysql://user@localhost/foo'
 
