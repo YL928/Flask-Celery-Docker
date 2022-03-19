@@ -1,1 +1,1 @@
-***Flaska restful project with uwsgi ngxing docker ect***
+***Flask restful API service with uwsgi ngxing docker ect***
